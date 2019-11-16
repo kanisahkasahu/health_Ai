@@ -44,9 +44,11 @@
                       <div class="col-md-8">
                         <!-- {% block content %}{% endblock %} -->
                         {% for post in posts %}
-                            <h1>{{ post.title}}</h1>
-                            <p>Posted by {{ post.author }} on {{post.date}}</p>
-                            <p>{{ post.content }}</p>
+                        <div class="card">     
+                                <div class="card-header">   <h1>{{ post.title}}</h1></div>
+                               <div class="card-body"> <p>Posted by {{ post.author }} on {{post.date}}</p>
+                                <p>{{ post.content }}</p></div>
+                            </div>
                         {% endfor %}
                       </div>
                       <div class="col-md-4">

@@ -3,12 +3,17 @@ body {
     color: #333333;
     margin-top: 5rem;
   }
+
+  main{
+      margin-top: 100px;
+  }
   
   h1, h2, h3, h4, h5, h6 {
     color: #444444;
   }
   
   .bg-steel {
+  
     background-color: #5f788a;
   }
   
@@ -25,6 +30,7 @@ body {
   }
   
   .content-section {
+      
     background: #ffffff;
     padding: 10px 20px;
     border: 1px solid #dddddd;
